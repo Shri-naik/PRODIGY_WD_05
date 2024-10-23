@@ -19,11 +19,11 @@ function getWeather() {
         })
         .then(data => {
             const weatherData = `
-                <h2>Current Weather in ${data.name}</h2>
-                <p>Temperature: ${data.main.temp}°C</p>
-                <p>Weather Conditions: ${data.weather[0].description}</p>
-                <p>Humidity: ${data.main.humidity}%</p>
-                <p>Wind Speed: ${data.wind.speed} m/s</p>
+                <h2 style="font-size: 2em;">Current Weather in ${data.name}</h2>
+                <p style="font-size: 1.5em;">Temperature: ${data.main.temp}°C</p>
+                <p style="font-size: 1.5em;">Weather Conditions: ${data.weather[0].description}</p>
+                <p style="font-size: 1.5em;">Humidity: ${data.main.humidity}%</p>
+                <p style="font-size: 1.5em;">Wind Speed: ${data.wind.speed} m/s</p>
             `;
             weatherDataDiv.innerHTML = weatherData;
         })
