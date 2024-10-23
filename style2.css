@@ -1,0 +1,41 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    background:linear-gradient(to left, #494fc7, #8187ec);
+}
+h1{
+    font-size: 50px;
+}
+
+#location {
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block; /* Make the input inline */
+    vertical-align: middle; 
+}
+
+#get-weather {
+    width: 130px;
+    height: 65px;
+    /* margin-top: 30px; */
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #165719;
+    color: #fff;
+    border:black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#get-weather:hover {
+    background-color: #3e8e41;
+}
+
+#weather-data {
+    margin-top: 20px;
+}
